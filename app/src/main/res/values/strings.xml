@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LifeHack.Studio</string>
+    <string name="btn_reconnect_text">Try reconnect</string>
+    <string name="connection_lost">Internet connection is lost</string>
+    <string name="json_error">Произошла ошибка. Сервер вернул невалидный JSON</string>
+    <string name="preview_image">preview image</string>
+    <string name="base_url">https://lifehack.studio/test_task/</string>
+    
+</resources>
