@@ -70,11 +70,19 @@ class DetailActivity : AppCompatActivity() {
 				}
 				else binding.www.visibility = View.GONE
 
-				Picasso
+
+				if(result.img != null || result.img != ""){
+					Picasso
 						.get()
 						.load(resources.getString(R.string.base_url) + result.img)
 						.fit()
 						.into(binding.imageView)
+				}
+				else{
+					binding.imageView.setImageResource(R.drawable.no_image_placeholder)
+				}
+
+
 
 			}
 
